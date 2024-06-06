@@ -9,8 +9,6 @@
     tools:context=".MainActivity"
     >
 
-
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -27,19 +25,86 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/pic0"
             android:layout_width="wrap_content"
             android:layout_height="360dp"
             android:contentDescription="@string/todo"
             app:layout_constraintStart_toStartOf="parent"
 
             app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pic0"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:contentDescription="@string/todo"
+            app:layout_constraintStart_toStartOf="parent"
+            android:alpha="0"
+            app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/pic1"
             tools:ignore="MissingConstraints" />
 
+        <ImageView
+            android:id="@+id/pic2"
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:contentDescription="@string/todo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:alpha="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pic2"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/pic3"
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:contentDescription="@string/todo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:alpha="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pic3"
+            tools:ignore="MissingConstraints" />
 
+        <ImageView
+            android:id="@+id/pic4"
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:contentDescription="@string/todo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:alpha="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pic4"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/pic5"
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:contentDescription="@string/todo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:alpha="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pic5"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/pic6"
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+
+            android:contentDescription="@string/todo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:alpha="0"
+            app:srcCompat="@drawable/pic6"
+            tools:ignore="MissingConstraints" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -76,10 +141,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/mount_everest"
+        android:text="Ganesh Himal"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
-
+        android:id="@+id/TVPlace"
         android:textSize="25sp"
         android:textStyle="bold"
         android:background="@color/black"
